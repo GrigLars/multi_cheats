@@ -13,7 +13,7 @@ This is my cheatsheet for "How to" do a variety things I frequently do in variou
 
 ## Variable types (their names)
 ### Single variable types
-In bash, they are not well defined, which can cause some traps in string comparisons, which are dependent on wheteher to operators are in quotes, have spaces, single brackets, double bracks, or parathesis.
+In bash, they are not well defined, which can cause some traps in string comparisons, which are dependent on whether to operators are in quotes, have spaces, single brackets, double bracks, or parathesis.
 - https://www.tldp.org/LDP/abs/html/testconstructs.html#DBLBRACKETS
 - https://www.tldp.org/LDP/abs/html/dblparens.html
 
@@ -55,6 +55,8 @@ https://dennisreimann.de/articles/elm-data-structures-list-array-set-dict.html
 ## For each loops
 
 ## For each key/value
+
+bash 4.0 and above:
     for key in ${!arr[@]}; do
         echo ${key} ${arr[${key}]}
     done
