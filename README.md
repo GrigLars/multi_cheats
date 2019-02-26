@@ -10,6 +10,7 @@ This is my cheatsheet for "How to" do a variety things I frequently do in variou
 - php
 - javascript
 - elm
+- awk
 
 ## Variable types (their names)
 ### Single variable types
@@ -47,6 +48,10 @@ https://javascript.info/object
 
 In elm, it's also "dictionaries"  
 https://dennisreimann.de/articles/elm-data-structures-list-array-set-dict.html
+
+awk... hm...  
+https://stackoverflow.com/questions/39666084/key-value-pairs-in-awk
+
 
 ### Arrays
 ### Boolean
