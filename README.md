@@ -9,6 +9,7 @@ This is my cheatsheet for "How to" do a variety things I frequently do in variou
 - ruby 
 - php
 - javascript
+- elm
 
 ## Variable types (their names)
 ### Single variable types
@@ -23,28 +24,29 @@ In bash version 4 "associative arrays" were introduced.
     arr["key1"]=val1
     arr+=( ["key2"]=val2 ["key3"]=val3 )
 
-In python, they are called "dictionaries" 
+In python, they are called "dictionaries"  
 https://www.pythonforbeginners.com/dictionary/how-to-use-dictionaries-in-python/
 
-In perl, they are called "hashes"
+In perl, they are called "hashes"  
 https://perlmaven.com/perl-hashes
-
-In go, they are called "maps"
+ 
+In go, they are called "maps"  
 https://gobyexample.com/maps
 
-Since ansible has its roots in python, they are also called "dictionaries"
+Since ansible has its roots in python, they are also called "dictionaries"  
 https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html
 
-In ruby, they are also called "hashes"
+In ruby, they are also called "hashes"  
 https://ruby-doc.org/core-2.2.0/Hash.html
 
-To confuse the hell out of you, in php, they are called "arrays"
+To confuse the hell out of you, in php, they are called "arrays"  
 http://php.net/manual/en/language.types.array.php
 
-In javascript, it's a form of an object
+In javascript, it's a form of an object  
 https://javascript.info/object
 
-
+In elm, it's also "dictionaries"  
+https://dennisreimann.de/articles/elm-data-structures-list-array-set-dict.html
 
 ### Arrays
 ### Boolean
