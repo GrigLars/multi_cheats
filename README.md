@@ -57,6 +57,7 @@ https://dennisreimann.de/articles/elm-data-structures-list-array-set-dict.html
 ## For each key/value
 
 bash 4.0 and above:
+
     for key in ${!arr[@]}; do
         echo ${key} ${arr[${key}]}
     done
