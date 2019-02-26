@@ -21,9 +21,10 @@ In bash, they are not well defined, which can cause some traps in string compari
 ### Key/value types
 In bash version 4 "associative arrays" were introduced.
 
-    declare -A arr
-    arr["key1"]=val1
-    arr+=( ["key2"]=val2 ["key3"]=val3 )
+    declare -A US_CAPITALS
+    US_CAPITALS["Arizona"]="Phoenix"
+    US_CAPITALS+=( ["Louisiana"]="Baton Rouge" ["Texas"]="Austin" )
+
 
 In python, they are called "dictionaries"  
 https://www.pythonforbeginners.com/dictionary/how-to-use-dictionaries-in-python/
@@ -63,9 +64,10 @@ https://stackoverflow.com/questions/39666084/key-value-pairs-in-awk
 
 bash 4.0 and above:
 
-    for key in ${!arr[@]}; do
-        echo ${key} ${arr[${key}]}
-    done
+    for key in ${!US_CAPITALS[@]}; do
+            echo " The capital of ${key} is ${US_CAPITALS[${key}]}"
+        done
+
 
 ## If/then/else
 
